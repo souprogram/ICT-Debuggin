@@ -9,4 +9,4 @@ Sretno!
 
 # Alati
 
-Zadatak se rješava [Google Colab-om](https://colab.research.google.com)
+Zadatak se rješava [Google Colab-om](https://colab.research.google.com/drive/1EJV9Beit2auL1UskOVtBloEI6XVz_LDL?usp=sharing)
