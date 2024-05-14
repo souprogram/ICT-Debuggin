@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function HeroSection() {
   return (
-		<section className="bg-gray-900 text-white flex items-center py-16 md:py-24">
+		<section className="bg-gray-900 text-white flex items-center py-16 h-[700px] md:py-24">
 			<div className="container h-full mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-8">
 				<div className="max-w-md space-y-4 basis-2/3">
 					<h1 className="fs-3xl md:fs-5xl font-bold">Generate AI-powered SRS with ease</h1>
