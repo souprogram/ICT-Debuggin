@@ -9,6 +9,8 @@ Nalazi se kod koji ima grešaka prilikom predviđanja i vizualnog prikaza rezult
 Screenshot current.png je trenutno stanje modela, to jest njegova vizualizacija podataka koja sadrži greške
 Screenshot desired.png je stanje koje bi trebao pokazivati nakon što se riješe svi bugovi.
 
+Ne smiju se dirati ostali blokovi koda, samo drugi
+
 Sretno!
 
 # Alati
