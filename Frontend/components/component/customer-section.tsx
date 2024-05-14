@@ -28,7 +28,7 @@ export default function CustomerSection() {
 			company: 'Gotham City d.o.o'
 		},
 		{
-			id: 4,
+			id: 3,
 			text: `The AI SRS generator has been a game-changer for our team. It saves us so much time and ensures we never miss a requirement. Can't wait to beat some criminals.`,
 			fullName: 'Bruce Wayne',
 			credentials: 'BW',
@@ -38,14 +38,14 @@ export default function CustomerSection() {
 	]
 
   return (
-		<section className="py-16 md:py-24">
+		<section className="py-16 md:py-24 -mx-8">
 			<div className="container mx-auto px-4 md:px-6">
-				<h2 className="text-2xl md:text-3xl font-bold mb-8">What Our Customers Say</h2>
+				<h2 className="fs-2xl md:fs-3xl font-bold mb-8">What Our Customers Say</h2>
 				<Carousel className="w-full">
 					<CarouselContent>
 						{customers.map((customer) => (
 							<CarouselItem key={customer.id} className="md:basis-1/2 lg:basis-1/3 flex">
-								<div className="bg-white rounded-lg  p-6 space-y-4 h-full overflow-hidden flex flex-col">
+								<div className="bg-white rounded-lg p-6 space-y-4 h-full overflow-hidden flex flex-col">
 									<div className="flex items-center gap-4">
 										<Avatar>
 											<AvatarFallback>{customer.credentials}</AvatarFallback>
@@ -62,7 +62,7 @@ export default function CustomerSection() {
 							</CarouselItem>
 						))}
 					</CarouselContent>
-					<CarouselPrevious />
+				  <CarouselPrevious />
 					<CarouselNext />
 				</Carousel>
 			</div>
