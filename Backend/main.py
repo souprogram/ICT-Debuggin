@@ -8,7 +8,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-# OVO
+
 db_connection_url = os.getenv("DATABASE_URL")
 print(db_connection_url)
 
@@ -16,7 +16,7 @@ client = MongoClient(db_connection_url)
 db = client.transakcije_db 
 collection = db.transakcije
 
-# ovdje error 
+
 @app.route('/transakcija', methods=['PUT'])
 def kreiraj_transakciju():
     data = request.json()
@@ -44,7 +44,7 @@ def pretrazi_transakcije_minimum(min):
         transakcija['_id'] = str(transakcija['_id'])
     return jsonify(zeljene_transakcije)
 
-#ovdje
+
 @app.route('/transakcija/max/<int:max>', methods=['GET'])
 def pretrazi_transakcije_maxima(max):
     zeljene_transakcije = list(collection.find({"iznos": {"$gt": max}}))
