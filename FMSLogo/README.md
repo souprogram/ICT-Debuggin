@@ -9,3 +9,11 @@ Sretno!
 # Alati
 
 Zadatak se riješava u [FMSLogou](https://sourceforge.net/projects/fmslogo/)
+
+## Trenutno stanje
+
+![current](current.png)
+
+## Stanje nakon fixanja buga
+
+![desired](desired.png)
