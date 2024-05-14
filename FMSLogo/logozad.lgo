@@ -1,7 +1,7 @@
 TO KRUG
   CLEARSCREEN
   PU FD 200 PD
-  REPEAT 12 [
+  REPEAT 8 [
     SETPEN REPCOUNT * 21
     SPIRALA
   ]
@@ -9,15 +9,21 @@ END
 
 TO SETPEN :BRIGHTNESS
   SETPENCOLOR ( LIST
-     255 			; red
-     255 - :BRIGHTNESS		; green
-     :BRIGHTNESS		; blue
+     255             ; red
+     255 - :BRIGHTNESS        ; green
+     :BRIGHTNESS        ; blue
   )
 END
 
 TO SPIRALA
+  MAKE "step 0
+  MAKE "angle 1
   REPEAT 50 [
-    FD REPCOUNT RT 90 - REPCOUNT * 2
+    FD :step RT 90 - :angle
+    MAKE "step :step + 1
+    MAKE "angle :step * 2
   ]
 END
 
+Make "angle 100
+Make "step 50
