@@ -15,4 +15,4 @@ Sretno!
 
 # Alati
 
-Zadatak se može rješavati [Google Colab-om](https://colab.research.google.com), [Replitom](https://replit.com/languages/python3) ili PyCharmom
+Zadatak se može rješavati [Google Colab-om](https://colab.research.google.com/drive/1fzu2l7VucJf_ZEJx54Aj6ZCLdoXWCtq9?usp=sharing)
