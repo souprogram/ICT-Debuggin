@@ -14,7 +14,7 @@ export default function FeaturesSection() {
 			title: 'Customizable Templates',
 			text: "Choose from a variety of pre-built templates or create your own custom SRS structure."
 		},
-		{ id: 2,
+		{ id: 3,
 			icon: <ClipboardListIcon className="size-8 text-blue-500" />,
 			title: 'Collaborative Workflow',
 			text: "Invite team members to review, comment, and contribute to the SRS document in real-time."
@@ -26,7 +26,7 @@ export default function FeaturesSection() {
 			<div className="container mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
 				{features.map(feature => (
 					<div key={feature.id} className="flex flex-col items-start gap-4">
-						<LightbulbIcon className="size-8 text-blue-500" />
+						{ feature.icon }
 						<h3 className="fs-xl font-semibold">{feature.title}</h3>
 						<p className="text-gray-600">{feature.text}</p>
 					</div>
