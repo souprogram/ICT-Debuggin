@@ -28,7 +28,7 @@ export default function CustomerSection() {
 			company: 'Gotham City d.o.o'
 		},
 		{
-			id: 3,
+			id: 4,
 			text: `The AI SRS generator has been a game-changer for our team. It saves us so much time and ensures we never miss a requirement. Can't wait to beat some criminals.`,
 			fullName: 'Bruce Wayne',
 			credentials: 'BW',
