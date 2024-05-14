@@ -21,9 +21,9 @@ export default function HeroSection() {
 				<Image
 					alt="Di je slika?"
 					className="basis-1/3 rounded-lg shadow-lg w-fit h-auto"
-					width={100}
-					height={75}
-					src="/hero-image.jpeg"
+					width={400}
+					height={300}
+					src="/hero-image.jpg"
 					style={{
 						aspectRatio: "4/3",
 						objectFit: "cover",

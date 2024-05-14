@@ -1,5 +1,5 @@
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
-import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel"
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
 
 export default function CustomerSection() {
 	const customers = [
@@ -38,7 +38,7 @@ export default function CustomerSection() {
 	]
 
   return (
-		<section className="py-16 md:py-24">
+		<section className="py-16 md:py-24 -mx-8">
 			<div className="container mx-auto px-4 md:px-6">
 				<h2 className="fs-2xl md:fs-3xl font-bold mb-8">What Our Customers Say</h2>
 				<Carousel className="w-full">
@@ -62,6 +62,8 @@ export default function CustomerSection() {
 							</CarouselItem>
 						))}
 					</CarouselContent>
+				  <CarouselPrevious />
+					<CarouselNext />
 				</Carousel>
 			</div>
 		</section>
