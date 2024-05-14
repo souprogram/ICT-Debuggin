@@ -10,7 +10,6 @@ app = Flask(__name__)
 
 
 db_connection_url = os.getenv("DATABASE_URL")
-print(db_connection_url)
 
 client = MongoClient(db_connection_url)
 db = client.transakcije_db 
