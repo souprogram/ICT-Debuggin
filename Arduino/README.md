@@ -1,9 +1,9 @@
 # Očekivani rezultat
 
-`diagram.json` je zapis za Wowki koji elementi su spojeni na Arduino i na koji način.
-`sketch.ino` je skripta u kojem Arduinu u dajemo instrukcije.
+U `diagram.json` se nalazi zapis projekta za Wowki (online editor za simuliranje IoT projekata) u kojem su metapodaci za projekt (koji elementi su spojeni na Arduino i na koji način).
+`sketch.ino` je skripta za pokretanje projekta.
 
-Pri pokretanju trenutnog `sketch.ino` filea Arduino ne pali niti jednu LED diodu. Zadatak je popraviti `sketch.ino` file da pri pokretanju nasumično pali LED diode iz lijeva udesno i tako u krug.
+Pri pokretanju trenutnog `sketch.ino` filea, Arduino ne pali niti jednu LED diodu. Zadatak je popraviti `sketch.ino` file da pri pokretanju uzastopno pali LED diode iz lijeva udesno i kad dođe do kraja, ponovno se pali najlijevija.
 
 Sretno!
 
