@@ -69,4 +69,4 @@ a sada ispisuje ovako
 
 # Alati
 
-Zadatak se rješava sa PyCharmom ili [Replitom](https://replit.com/languages/python3)
+Zadatak se rješava sa PyCharmom.
