@@ -1,6 +1,8 @@
+SETPENSIZE [2 2]
+
 TO KRUG
   CLEARSCREEN
-  PU FD 200 PD
+  PU FD 250 PD
   REPEAT 8 [
     SETPEN REPCOUNT * 21
     SPIRALA
@@ -25,5 +27,4 @@ TO SPIRALA
   ]
 END
 
-Make "angle 100
-Make "step 50
+KRUG
